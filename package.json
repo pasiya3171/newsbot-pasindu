@@ -1,0 +1,31 @@
+{
+  "name": "esana_news_bot",
+  "version": "1.0.0",
+  "description": "auto esana news sending bot",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.0",
+    "axios": "^1.3.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "got": "^11.8.2",
+    "link-preview-js": "^3.0.4",
+    "megajs": "^1.1.1",
+    "pg": "^8.9.0",
+    "pm2": "^5.2.2",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.28.0",
+    "sharp": "^0.30.5",
+    "sqlite3": "5.1.4"
+  },
+  "author": "BlackAmda",
+  "license": "MIT"
+}
